@@ -8,6 +8,7 @@ public class Jugador : MonoBehaviour
     float movZ, movX;
     public float speed = 10f;
     bool quiereSaltar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +26,7 @@ public class Jugador : MonoBehaviour
         }
         if (quiereSaltar)
         {
-            rb.AddForce(Vector3.up * 10, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * 3, ForceMode.Impulse);
             quiereSaltar = false;
         }
     }

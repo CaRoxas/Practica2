@@ -6,6 +6,7 @@ public class Monedas : MonoBehaviour
 {
     Rigidbody rb;
     ParticleSystem exp;
+    float tiempo;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,7 @@ public class Monedas : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Explode();
-            Destroy(this.gameObject,1f);
+            Destroy(this.gameObject,0.5f);
         }
     }
         void Explode()
