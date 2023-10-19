@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Monedas
+  - Trampolin
   layers:
   - Default
   - TransparentFX

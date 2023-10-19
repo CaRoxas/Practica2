@@ -8,7 +8,7 @@ public class Jugador : MonoBehaviour
     float movZ, movX;
     public float speed = 10f;
     bool quiereSaltar;
-
+    bool estaSuelo = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,21 +18,37 @@ public class Jugador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Movimiento();
+        Salto();
+    }
+    private void FixedUpdate()
+    {
+        Vector3 nuevaVelocidad = new Vector3(movX * speed, rb.velocity.y, movZ * speed);
+        rb.velocity = nuevaVelocidad;
+    }
+    private void OnCollisionEnter(Collision col) 
+    {
+        if (col.gameObject.tag == "Trampolin")
+        {
+            rb.AddForce(Vector3.up * 4, ForceMode.Impulse);
+        }   
+    }
+    void Movimiento()
+    {
         movX = Input.GetAxis("Horizontal");
         movZ = Input.GetAxis("Vertical");
+    }
+    void Salto()
+    {
         if (Input.GetButtonDown("Jump"))
         {
             quiereSaltar = true;
         }
-        if (quiereSaltar)
+        if (quiereSaltar && estaSuelo) //Duda
         {
-            rb.AddForce(Vector3.up * 3, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * 4, ForceMode.Impulse);
             quiereSaltar = false;
+            estaSuelo = false;
         }
-    }
-        private void FixedUpdate()
-    {
-        Vector3 nuevaVelocidad = new Vector3(movX * speed, rb.velocity.y, movZ * speed);
-        rb.velocity = nuevaVelocidad;
     }
 }
