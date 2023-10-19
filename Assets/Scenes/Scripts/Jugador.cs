@@ -40,14 +40,14 @@ public class Jugador : MonoBehaviour
     }
     void Salto()
     {
+        //Ahora salta solo una vez pero no vuelve a saltar :D
         if (Input.GetButtonDown("Jump"))
         {
             quiereSaltar = true;
         }
-        if (quiereSaltar && estaSuelo) //Duda
+        if (quiereSaltar && estaSuelo)
         {
-            rb.AddForce(Vector3.up * 4, ForceMode.Impulse);
-            quiereSaltar = false;
+            rb.AddForce(Vector3.up * 6, ForceMode.Impulse);
             estaSuelo = false;
         }
     }
