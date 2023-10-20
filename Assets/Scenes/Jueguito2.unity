@@ -123,6 +123,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &8970682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3761894259103403579, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+  m_PrefabInstance: {fileID: 1717957004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &125247800 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3761894259103403579, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+  m_PrefabInstance: {fileID: 1971044175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &129747542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3761894259103403579, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+  m_PrefabInstance: {fileID: 687269091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &272373726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3761894259103403579, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+  m_PrefabInstance: {fileID: 1833390871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &320018240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135,6 +155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monedas (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4046971275103220800, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+      propertyPath: puntoGiro
+      value: 
+      objectReference: {fileID: 468810423}
     - target: {fileID: 7517590970114675851, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.1
@@ -180,6 +204,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+--- !u!1 &468810423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3761894259103403579, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+  m_PrefabInstance: {fileID: 320018240}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &497027706
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monedas (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4046971275103220800, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+      propertyPath: puntoGiro
+      value: 
+      objectReference: {fileID: 129747542}
     - target: {fileID: 7517590970114675851, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.13
@@ -450,6 +483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monedas (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4046971275103220800, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+      propertyPath: puntoGiro
+      value: 
+      objectReference: {fileID: 906099058}
     - target: {fileID: 7517590970114675851, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.74
@@ -495,6 +532,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+--- !u!1 &906099058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3761894259103403579, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+  m_PrefabInstance: {fileID: 839600174}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,6 +735,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1053321658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3761894259103403579, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+  m_PrefabInstance: {fileID: 1403775910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1225557749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3761894259103403579, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+  m_PrefabInstance: {fileID: 1921610656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1403775910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -705,6 +757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monedas (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4046971275103220800, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+      propertyPath: puntoGiro
+      value: 
+      objectReference: {fileID: 1053321658}
     - target: {fileID: 7517590970114675851, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.11
@@ -762,6 +818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monedas (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4046971275103220800, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+      propertyPath: puntoGiro
+      value: 
+      objectReference: {fileID: 8970682}
     - target: {fileID: 7517590970114675851, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -966,6 +1026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monedas (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4046971275103220800, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+      propertyPath: puntoGiro
+      value: 
+      objectReference: {fileID: 272373726}
     - target: {fileID: 7517590970114675851, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.05
@@ -1023,6 +1087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monedas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4046971275103220800, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+      propertyPath: puntoGiro
+      value: 
+      objectReference: {fileID: 1225557749}
     - target: {fileID: 7517590970114675851, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.56
@@ -1080,6 +1148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monedas (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4046971275103220800, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+      propertyPath: puntoGiro
+      value: 
+      objectReference: {fileID: 125247800}
     - target: {fileID: 7517590970114675851, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.38
@@ -1198,6 +1270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monedas
       objectReference: {fileID: 0}
+    - target: {fileID: 4046971275103220800, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
+      propertyPath: puntoGiro
+      value: 
+      objectReference: {fileID: 497027706}
     - target: {fileID: 5322349239996397128, guid: 9cbc3ab5ece46744e934a04458cd9644, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.06274507

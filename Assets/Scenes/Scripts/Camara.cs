@@ -15,10 +15,14 @@ public class Camara : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(renacuajo.transform.position.x, renacuajo.transform.position.y + 1, renacuajo.transform.position.z - 5);
+        transform.position = renacuajo.transform.position;
+        if (Follow == true)
+        {
+            transform.position = new Vector3(renacuajo.transform.position.x, renacuajo.transform.position.y + 1, renacuajo.transform.position.z - 5);  
+        }
         if (Input.GetKeyDown(KeyCode.C))
         {
-            transform.position = renacuajo.transform.position;
+            Follow = false;
         }
     }
 }
