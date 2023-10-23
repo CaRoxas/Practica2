@@ -7,8 +7,9 @@ public class Jugador : MonoBehaviour
     Rigidbody rb;
     float movZ, movX;
     public float speed = 10f;
-    bool quiereSaltar;
+    bool quiereSaltar = false;
     bool estaSuelo = true;
+    int monedas = 9;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +32,12 @@ public class Jugador : MonoBehaviour
         if (col.gameObject.tag == "Trampolin")
         {
             rb.AddForce(Vector3.up * 4, ForceMode.Impulse);
-        }   
+        }
+        if (col.gameObject.tag == "Suelo")
+        {
+            estaSuelo = true;
+        }
+        // restar monedas
     }
     void Movimiento()
     {
@@ -40,7 +46,6 @@ public class Jugador : MonoBehaviour
     }
     void Salto()
     {
-        //Ahora salta solo una vez pero no vuelve a saltar :D
         if (Input.GetButtonDown("Jump"))
         {
             quiereSaltar = true;
@@ -49,6 +54,11 @@ public class Jugador : MonoBehaviour
         {
             rb.AddForce(Vector3.up * 6, ForceMode.Impulse);
             estaSuelo = false;
+            quiereSaltar = false;
         }
+    }
+    void PauseGame ()
+    {
+        Time.timeScale = 0;
     }
 }

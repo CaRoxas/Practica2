@@ -4,19 +4,32 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
-    public GameObject renacuajo;
-    private Transform objetivo;
-    public float velocidad = 2f;
+    public Transform objetivo;
+    public float velocidad = 50f;
+    public GameObject GameOver;
     // Start is called before the first frame update
     void Start()
     {
-        renacuajo.transform.LookAt(transform.position);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        var step = velocidad * Time.deltaTime;
+        transform.LookAt(objetivo.position);
+        float step = velocidad * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, objetivo.position, step);
+    }
+    void OnCollisionEnter (Collision col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            PauseGame();
+            GameOver.SetActive(true);
+        }
+    }
+    void PauseGame()
+    {
+        Time.timeScale = 0;
     }
 }
