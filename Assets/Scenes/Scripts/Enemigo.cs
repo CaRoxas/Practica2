@@ -7,6 +7,7 @@ public class Enemigo : MonoBehaviour
     public Transform objetivo;
     public float velocidad = 50f;
     public GameObject GameOver;
+    public AudioSource Principal;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,7 @@ public class Enemigo : MonoBehaviour
         {
             PauseGame();
             GameOver.SetActive(true);
+            Principal.Stop();
         }
     }
     void PauseGame()
