@@ -9,6 +9,8 @@ public class Jugador : MonoBehaviour
     public float speed = 10f;
     bool quiereSaltar = false;
     bool estaSuelo = true;
+    int monedas = 9;
+    float tiempo = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class Jugador : MonoBehaviour
     {
         Movimiento();
         Salto();
+        tiempo = tiempo + Time.deltaTime;
     }
     private void FixedUpdate()
     {
@@ -35,6 +38,16 @@ public class Jugador : MonoBehaviour
         if (col.gameObject.tag == "Suelo")
         {
             estaSuelo = true;
+        }
+        if (col.gameObject.tag == "Monedas")
+        {
+            monedas = monedas - 1;
+        }
+        else if (monedas == 0)
+        { 
+            Debug.Log(tiempo);
+            PauseGame();
+           
         }
     }
     void Movimiento()

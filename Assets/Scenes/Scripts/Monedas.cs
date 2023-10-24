@@ -8,12 +8,12 @@ public class Monedas : MonoBehaviour
     ParticleSystem exp;
     public GameObject puntoGiro;
     public float tiempo = 1f;
-    int monedas = 9;
-    //public AudioSource FXMonedas;
+    public AudioSource FXMonedas;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        FXMonedas = GameObject.Find("FXMonedas").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,12 +27,7 @@ public class Monedas : MonoBehaviour
         {
             Explode();
             Destroy(this.gameObject,0.3f);
-            monedas = monedas - 1;
-            //FXMonedas.Play();
-        }
-        else if (monedas == 0)
-        {
-            PauseGame();
+            FXMonedas.Play();
         }
     }
     void Explode()
