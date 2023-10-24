@@ -9,7 +9,6 @@ public class Jugador : MonoBehaviour
     public float speed = 10f;
     bool quiereSaltar = false;
     bool estaSuelo = true;
-    int monedas = 9;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,13 +30,12 @@ public class Jugador : MonoBehaviour
     {
         if (col.gameObject.tag == "Trampolin")
         {
-            rb.AddForce(Vector3.up * 4, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * 6, ForceMode.Impulse);
         }
         if (col.gameObject.tag == "Suelo")
         {
             estaSuelo = true;
         }
-        // restar monedas
     }
     void Movimiento()
     {

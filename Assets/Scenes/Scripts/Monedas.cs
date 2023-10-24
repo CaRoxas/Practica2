@@ -26,7 +26,7 @@ public class Monedas : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Explode();
-            Destroy(this.gameObject,0.5f);
+            Destroy(this.gameObject,0.3f);
             monedas = monedas - 1;
             //FXMonedas.Play();
         }
