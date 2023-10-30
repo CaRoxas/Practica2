@@ -1,17 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemigo : MonoBehaviour
 {
     public Transform objetivo;
-    public float velocidad = 50f;
+    public float velocidad = 2f;
     public GameObject GameOver;
     public AudioSource Principal;
+    public GameObject Toggle;
     // Start is called before the first frame update
     void Start()
     {
-        
+        /*/if (Toggle = true)
+        {
+            velocidad = GameManager.Velocidad;
+        }
+        else
+        {
+            velocidad = 2f;
+        }*/
     }
 
     // Update is called once per frame
