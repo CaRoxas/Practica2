@@ -11,7 +11,6 @@ public class Iniciar : MonoBehaviour
     void Start()
     {
         LeanTween.moveZ(Boton, 50f, 3f).setEaseInElastic();
-
     }
 
     // Update is called once per frame
@@ -22,20 +21,27 @@ public class Iniciar : MonoBehaviour
     public void Empezar ()
     {
         Destroy(Inicio);
+        RestartGame();
     }
     public void VelozOn (bool activado)
     {
-        /*/if (Toggle = true)
+        Debug.Log(activado);
+
+        if (activado)
         {
-            GameManager.Velocidad;
+            GameManager.Velocidad = 7;
         }
         else
         {
-
-        }*/
+            GameManager.Velocidad = 2;
+        }
     }
     void PauseGame()
     {
         Time.timeScale = 0;
+    }
+    void RestartGame()
+    {
+        Time.timeScale = 1;
     }
 }

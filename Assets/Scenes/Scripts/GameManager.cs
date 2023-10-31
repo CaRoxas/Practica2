@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static int Velocidad = 7;
+    public static int Velocidad = 2;
     // Start is called before the first frame update
     void Start()
     {

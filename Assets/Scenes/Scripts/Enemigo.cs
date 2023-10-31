@@ -6,21 +6,13 @@ using UnityEngine.UI;
 public class Enemigo : MonoBehaviour
 {
     public Transform objetivo;
-    public float velocidad = 2f;
+    float velocidad;
     public GameObject GameOver;
     public AudioSource Principal;
-    public GameObject Toggle;
     // Start is called before the first frame update
     void Start()
-    {
-        /*/if (Toggle = true)
-        {
-            velocidad = GameManager.Velocidad;
-        }
-        else
-        {
-            velocidad = 2f;
-        }*/
+    { 
+        velocidad = GameManager.Velocidad;
     }
 
     // Update is called once per frame

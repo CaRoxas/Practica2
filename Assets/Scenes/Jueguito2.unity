@@ -504,7 +504,7 @@ MonoBehaviour:
       - m_Target: {fileID: 490241136}
         m_TargetAssemblyTypeName: Iniciar, Assembly-CSharp
         m_MethodName: VelozOn
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -754,10 +754,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objetivo: {fileID: 1745961535}
-  velocidad: 2
   GameOver: {fileID: 1645860892}
   Principal: {fileID: 2141021124}
-  Toggle: {fileID: 0}
 --- !u!1001 &687269091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1411,7 +1409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6981132, g: 0.6553044, b: 0.6553044, a: 1}
+  m_Color: {r: 0.43137255, g: 0.6392157, b: 0.7647059, a: 0.89411765}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1709,7 +1707,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enemigo/Bolt
+  m_Text: Enemigo Fiuuum
 --- !u!222 &1452842739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1913,7 +1911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8584906, g: 0.7977483, b: 0.7977483, a: 1}
+  m_Color: {r: 0.43137255, g: 0.6392157, b: 0.7647059, a: 0.79607844}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
