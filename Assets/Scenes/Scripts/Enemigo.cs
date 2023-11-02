@@ -12,7 +12,7 @@ public class Enemigo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     { 
-        velocidad = GameManager.Velocidad;
+        
     }
 
     // Update is called once per frame
@@ -21,6 +21,7 @@ public class Enemigo : MonoBehaviour
         transform.LookAt(objetivo.position);
         float step = velocidad * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, objetivo.position, step);
+        velocidad = GameManager.Velocidad;
     }
     void OnCollisionEnter (Collision col)
     {

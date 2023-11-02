@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Iniciar : MonoBehaviour
 {
     public GameObject Boton;
     public GameObject Inicio;
     public GameObject Toggle;
-    public AudioSource Juego;
     public AudioSource Carga;
     // Start is called before the first frame update
     void Start()
@@ -19,22 +19,20 @@ public class Iniciar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PauseGame();
+
     }
-    public void Empezar ()
+    public void CambiarEscena(string Jueguito)
     {
-        Destroy(Inicio);
-        RestartGame();
+        SceneManager.LoadScene(Jueguito);
         Carga.Stop();
-        Juego.Play();
     }
     public void VelozOn (bool activado)
     {
         Debug.Log(activado);
 
-        if (activado)
+        if (activado == true)
         {
-            GameManager.Velocidad = 7;
+            GameManager.Velocidad = 5;
         }
         else
         {

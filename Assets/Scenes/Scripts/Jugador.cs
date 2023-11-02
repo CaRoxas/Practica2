@@ -22,6 +22,7 @@ public class Jugador : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         Debug.Log("Recomendado recoger primero la ficha del enemigo y no perder el tiempo traspasando grandes montañas :D");
+        Juego.Play();
     }
 
     // Update is called once per frame
