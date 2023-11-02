@@ -7,10 +7,13 @@ public class Iniciar : MonoBehaviour
     public GameObject Boton;
     public GameObject Inicio;
     public GameObject Toggle;
+    public AudioSource Juego;
+    public AudioSource Carga;
     // Start is called before the first frame update
     void Start()
     {
         LeanTween.moveZ(Boton, 50f, 3f).setEaseInElastic();
+        Carga.Play();
     }
 
     // Update is called once per frame
@@ -22,6 +25,8 @@ public class Iniciar : MonoBehaviour
     {
         Destroy(Inicio);
         RestartGame();
+        Carga.Stop();
+        Juego.Play();
     }
     public void VelozOn (bool activado)
     {

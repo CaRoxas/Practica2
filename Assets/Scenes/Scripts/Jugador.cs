@@ -16,7 +16,7 @@ public class Jugador : MonoBehaviour
     float tiempo = 0;
     public GameObject GameOver;
     public GameObject Final;
-    public AudioSource Principal;
+    public AudioSource Juego;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,7 +50,7 @@ public class Jugador : MonoBehaviour
         {
             PauseGame();
             GameOver.SetActive(true);
-            Principal.Stop();
+            Juego.Stop();
         }
         if (col.gameObject.tag == "Monedas")
         {
