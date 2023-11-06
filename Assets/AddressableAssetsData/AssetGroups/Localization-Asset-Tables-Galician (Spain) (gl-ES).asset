@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Asset-Tables-Galician (Spain) (gl-ES)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Asset-Tables-Galician (Spain) (gl-ES)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 54430cd3d7620d941a821df5fd2c103e
+  m_SerializeEntries:
+  - m_GUID: fdadc1ce589f3e44598bc6f78ea18456
+    m_Address: IdiomasQuerida_gl-ES
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-gl-ES
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b3d74ecb394a82f42a628ad1735cd3a6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a21870908dae87848bb2b9520a3e42ba, type: 2}
+    - {fileID: 11400000, guid: 9c2be74ba2648b84581f1b5c1c7dfa8f, type: 2}
