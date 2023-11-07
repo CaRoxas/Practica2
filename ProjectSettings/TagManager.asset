@@ -9,6 +9,8 @@ TagManager:
   - Enemigo
   - Suelo
   - Muerte
+  - Derecha
+  - Izquierda
   layers:
   - Default
   - TransparentFX

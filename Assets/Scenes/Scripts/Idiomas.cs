@@ -7,7 +7,6 @@ using UnityEngine.Localization.Settings;
 
 public class Idiomas : MonoBehaviour
 {
-    int idioma;
     public void CambiarIdioma(int indiceIdioma)
     {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[indiceIdioma];
