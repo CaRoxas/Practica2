@@ -761,11 +761,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: f0f182237fe5e0f4896779455084c97e, type: 3}
     - target: {fileID: 4704885460606359130, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -277
+      value: -194
       objectReference: {fileID: 0}
     - target: {fileID: 4704885460606359130, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -177
+      value: -144
       objectReference: {fileID: 0}
     - target: {fileID: 5668710889788713803, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_Name
@@ -809,27 +809,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7667794922717071992, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -269
+      value: -186
       objectReference: {fileID: 0}
     - target: {fileID: 7667794922717071992, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -126
+      value: -92.999985
       objectReference: {fileID: 0}
     - target: {fileID: 7758405883957180665, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 99.702
+      value: 71.548
       objectReference: {fileID: 0}
     - target: {fileID: 7758405883957180665, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 99.971
+      value: 70.923
       objectReference: {fileID: 0}
     - target: {fileID: 7758405883957180665, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.0008986
+      value: 0.00043488
       objectReference: {fileID: 0}
     - target: {fileID: 7758405883957180665, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00030375
+      value: -0.00017929
       objectReference: {fileID: 0}
     - target: {fileID: 8950846417329810175, guid: 70553bc36b70a5a43ba4f2fdcd21dc7d, type: 3}
       propertyPath: m_Maskable

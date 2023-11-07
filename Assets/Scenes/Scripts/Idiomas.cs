@@ -1,24 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
+
 
 public class Idiomas : MonoBehaviour
 {
-    public GameObject Boton;
-    // Start is called before the first frame update
-    void Start()
+    int idioma;
+    public void CambiarIdioma(int indiceIdioma)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    public void CambiarEscena (string MenuPrincipal)
-    {
-        SceneManager.LoadScene (MenuPrincipal);
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[indiceIdioma];
     }
 }
