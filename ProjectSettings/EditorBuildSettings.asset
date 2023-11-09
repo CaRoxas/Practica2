@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuIdiomas.unity
+    path: Assets/Elementos/Scenes/MenuIdiomas.unity
     guid: ca02d557107609144b9079d84571175d
   - enabled: 1
-    path: Assets/Scenes/MenuPrincipal.unity
+    path: Assets/Elementos/Scenes/MenuPrincipal.unity
     guid: f4da08291265ff54089ab77a8f97723b
   - enabled: 1
-    path: Assets/Scenes/Jueguito2.unity
+    path: Assets/Elementos/Scenes/Jueguito2.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/MenuIdiomas2.unity
+    path: Assets/Elementos/Scenes/MenuIdiomas2.unity
     guid: 05646898622846f47b6c5f5d730501c5
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: ef2816d965293a747970ee53788ab6bc, type: 2}

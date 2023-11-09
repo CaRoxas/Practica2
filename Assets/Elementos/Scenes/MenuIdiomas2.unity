@@ -304,7 +304,7 @@ MonoBehaviour:
       - m_Target: {fileID: 545667796}
         m_TargetAssemblyTypeName: Botones, Assembly-CSharp
         m_MethodName: MoverDerecha
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -364,7 +364,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boton: {fileID: 545667791}
-  indice: 0
 --- !u!1 &607859313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1225,6 @@ GameObject:
   - component: {fileID: 2021297168}
   - component: {fileID: 2021297167}
   - component: {fileID: 2021297166}
-  - component: {fileID: 2021297170}
   - component: {fileID: 2021297169}
   m_Layer: 5
   m_Name: BotonIzq
@@ -1302,15 +1300,15 @@ MonoBehaviour:
       - m_Target: {fileID: 2021297169}
         m_TargetAssemblyTypeName: Botones, Assembly-CSharp
         m_MethodName: MoverIzquierda
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: -1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 1
 --- !u!114 &2021297167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1361,43 +1359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bd63a91ec6ba841b55d43746e7f479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 2021297164}
-  indice: 0
---- !u!114 &2021297170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021297164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f55fcc3768689a4f9cf863b8c11c618, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LocalizedAssetReference:
-    m_TableReference:
-      m_TableCollectionName: GUID:43092bc4c0830f2469383b2a2b3361f4
-    m_TableEntryReference:
-      m_KeyId: 4670925021184
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-  m_UpdateAsset:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2021297169}
-        m_TargetAssemblyTypeName: Botones, Assembly-CSharp
-        m_MethodName: CambiarIdioma
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+  boton: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
