@@ -22,6 +22,18 @@ MonoBehaviour:
     m_Localized: "Marcho, que te\xF1o que marchar"
     m_Metadata:
       m_Items: []
+  - m_Id: 2097524253622272
+    m_Localized: Galego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108946291326976
+    m_Localized: "Con sentidi\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108588420726784
+    m_Localized: A fume de carozo
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

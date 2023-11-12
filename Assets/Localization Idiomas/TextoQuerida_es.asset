@@ -22,6 +22,18 @@ MonoBehaviour:
     m_Localized: Arranca muchachx
     m_Metadata:
       m_Items: []
+  - m_Id: 2097524253622272
+    m_Localized: "Espa\xF1ol-Canario"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108946291326976
+    m_Localized: "Salpica pa\xB4lla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108588420726784
+    m_Localized: Embalao
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

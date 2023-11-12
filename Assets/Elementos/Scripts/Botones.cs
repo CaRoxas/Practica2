@@ -22,7 +22,6 @@ public class Botones : MonoBehaviour
     public void MoverDerecha()
     {
         indice++;
-        Debug.Log("Idioma pos :" + indice);
         if (indice > 3)
         {
             indice = 0;
@@ -32,7 +31,6 @@ public class Botones : MonoBehaviour
     public void MoverIzquierda()
     {
         indice--;
-        Debug.Log("Idioma pos :" + indice);
         if (indice < 0)
         {
             indice = 3;

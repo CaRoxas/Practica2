@@ -22,6 +22,18 @@ MonoBehaviour:
     m_Localized: Let's go, take some tea
     m_Metadata:
       m_Items: []
+  - m_Id: 2097524253622272
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108588420726784
+    m_Localized: Fast&Furious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108946291326976
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

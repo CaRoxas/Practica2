@@ -13,7 +13,6 @@ public class Iniciar : MonoBehaviour
     void Start()
     {
         LeanTween.moveX(Boton, 20f, 8f).setEaseInBack().setRepeat(60);
-        //LeanTween.move(Boton, new Vector3(-0.5f, 0f, 3f),5f).setEaseOutQuad().setRepeat(1);
         Carga.Play();
     }
 

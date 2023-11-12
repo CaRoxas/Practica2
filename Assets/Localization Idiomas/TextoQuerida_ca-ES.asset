@@ -22,6 +22,18 @@ MonoBehaviour:
     m_Localized: "Anar de b\xF2lit"
     m_Metadata:
       m_Items: []
+  - m_Id: 2097524253622272
+    m_Localized: "Catal\xE0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108946291326976
+    m_Localized: Posar en marxa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108588420726784
+    m_Localized: Tocar el dos
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -16,7 +16,19 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: 6aeebf0a9606b874d99b9baa8b4d1b37
   m_Entries:
   - m_Id: 220533596160
-    m_Key: New Entry
+    m_Key: 'Menu Idiomas '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2097524253622272
+    m_Key: Menu Idiomas 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108588420726784
+    m_Key: Enemigo Veloz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2108946291326976
+    m_Key: Iniciar
     m_Metadata:
       m_Items: []
   m_Metadata:
